@@ -10,7 +10,7 @@ public class DB_connect {
 
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
-			Connection con = DriverManager.getConnection("jdbc:mysql://[ip address]/breaktime?useServerPrepStmts=false&rewriteBatchedStatements=true", "root", "chamel186");
+			Connection con = DriverManager.getConnection("jdbc:mysql://[ip address]/breaktime?useServerPrepStmts=false&rewriteBatchedStatements=true", "root", "");
 			// here sonoo is database name, root is username and password
 			stmt = con.createStatement();
 
